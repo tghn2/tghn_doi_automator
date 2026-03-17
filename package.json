@@ -1,0 +1,16 @@
+{
+  "name": "crossref-doi-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd web && npm ci && npm run build",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.35.0",
+    "axios": "^1.4.0",
+    "xmlbuilder2": "^4.0.2",
+    "papaparse": "^5.4.1",
+    "form-data": "^4.0.0"
+  }
+}
